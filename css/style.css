@@ -1,0 +1,31 @@
+body{
+    margin: 0px;
+    font-family: 'Philosopher', ;
+}
+.top-banner{
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+}
+
+.width-half{
+    width: 40%;
+    padding-top: 100px;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.width-half h3{
+    font-size: 30px;
+   
+}
+.width-half h2{
+    font-size: 45px;
+    
+}
+.width-half p{
+    font-size: 20px;
+}
+.width-half img{
+    width: 100%;
+    padding-bottom: 60px;
+}
