@@ -3,8 +3,14 @@ body{
     font-family: 'Philosopher', ;
 }
 .top-banner{
-    background-image: url("images/latest-work-bg.png");
+    background-image: url("../images/top-banner.png");
     background-repeat: no-repeat;
+   background-size: cover;
+}
+.top-banner::after{
+    content: '';
+    clear: both;
+    display: block;
 }
 
 .width-half{
@@ -13,13 +19,18 @@ body{
     float: left;
     margin-left: 5%;
     padding-left: 2%;
+
 }
+
 .width-half h3{
     font-size: 30px;
+    margin-top: 150px;
    
 }
-.width-half h2{
+h2{
     font-size: 45px;
+    color: #EC4C7A;
+    font-weight: 900;
     
 }
 .width-half p{
@@ -28,4 +39,101 @@ body{
 .width-half img{
     width: 100%;
     padding-bottom: 60px;
+}
+.section-middle{
+    background-image: url("../images/biography-bg.png");
+    background-repeat: no-repeat;
+   background-size: cover;
+}
+.section-middle::after{
+    content: '';
+    clear: both;
+    display: block;
+}
+.width-half .biography{
+    font-size: 40px;
+    margin-top: 180px;
+}
+a{
+    padding: 10px 20px;
+    background: #EC4C7A;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 20px;
+}
+h1{
+font-size: 40px;
+color: #000;
+text-align: center;
+}
+.work-section{
+    background-image: url("../images/latest-work-bg.png");
+    background-repeat: no-repeat;
+   background-size: cover;
+}
+.work-section::after{
+    content: '';
+    clear: both;
+    display: block;
+}
+.work{
+    width: 25%;
+    float: left;
+    box-shadow: aliceblue 10px 10px 10px;
+    margin: 3%;
+}
+.work img{
+    width: 100%
+}
+.work-section{
+    background-image: url("../images/latest-work-bg.png");
+    background-repeat: no-repeat;
+   background-size: cover;
+}
+.footer-section{
+    background-image: url("../images/footer-bg.png");
+    background-repeat: no-repeat;
+   background-size: cover;
+}
+.footer-section h4{
+    font-size: 30px;
+    text-align: center;
+}
+.footer-section h5{
+    font-size: 20px;
+    text-align: center;
+    margin-top: -20px;
+}
+.footer-section p{
+    font-size: 20px;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+.pink-design{
+    background: #EC4C7A;
+    padding: 10px 10px;
+    width: 50%;
+    margin: auto;
+   display: block;
+   border-radius: 20px;
+   margin-top: 50px;
+}
+h6{
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+}
+.pink-design h2{
+ font-size: 30px;
+ color: #fff;
+ text-align: center;
+}
+footer{
+    margin-top: 100px;
+}
+footer p{
+    font-size: 17px;
+    color: #060606;
 }
